@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Axiom</title>
+  <link rel="icon" href="./images/favicon_io/android-chrome-512x512.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/media.css" />
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="container">
+        <nav>
+          <div>
+            <ul class="navList nav-lft">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+            </ul>
+          </div>
+
+          <div class="navLogo b">
+            <a href="#"><img src="./images/axiom-logo.png" alt="Logo" /></a>
+          </div>
+
+          <div>
+            <ul class="navList nav-rt">
+              <li><a href="#">Treatments </a></li>
+              <a href="#" class="navItems btn btn-red">Book Consultation</a>
+            </ul>
+          </div>
+
+          <div class="navToogler b">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+      <ul class="dropdown-menu">
+        <li class="navItems"><a href="#">Home</a></li>
+        <li class="navItems"><a href="#">About</a></li>
+        <li class="navItems"><a href="#">Services</a></li>
+        <li class="navItems"><a href="#">Treatments </a></li>
+        <a href="#" class="navItems btn btn-red">Book Consultation</a>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="banner">
+      <div class="container">
+        <div class="bannerContent">
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <span>Rating 5.0</span>
+          </div>
+          <h1>Advanced Medical & Aesthetic <span>Wellness</span></h1>
+          <p class="bannerDescription">
+            We empower individuals to achieve optimal health, vitality, and
+            confidence. Our approach combines personalized care with
+            cutting-edge treatments to deliver exceptional results.
+          </p>
+          <div class="button">
+            <a href="#" class="btn flex btn-red">Book an appoinment
+
+              <span class="material-symbols-outlined"> arrow_outward </span>
+            </a>
+            <a href="#" class="btn flex btn-contact">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="facilities">
+      <div class="container">
+        <div class="row">
+          <div class="col-33 col-lg-33 col-md-100">
+            <div class="facilityBox">
+              <figure>
+                <img src="./images/facilities/facilities-01.png" alt="Medical Weight Management" />
+              </figure>
+              <h3>Medical Weight Management</h3>
+              <p>
+                Advanced solution including Semuglutide & Tirzepatide
+                Treatments
+              </p>
+            </div>
+          </div>
+          <div class="col-33 col-lg-33 col-md-100">
+            <div class="facilityBox">
+              <figure>
+                <img src="./images/facilities/facilities-02.png" alt="Medical Weight Management" />
+              </figure>
+              <h3>Aesthetic Treatment</h3>
+              <p>
+                Cutting-edge procedures for skin rejuvenation and body
+                contouring
+              </p>
+            </div>
+          </div>
+          <div class="col-33 col-lg-33 col-md-100">
+            <div class="facilityBox m0">
+              <figure>
+                <img src="./images/facilities/facilities-03.png" alt="Medical Weight Management" />
+              </figure>
+              <h3>IV Therapy</h3>
+              <p>
+                Customized IV treatments for enhanced wellness and recovery
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-content">
+            <p class="section-title">OUR SERVICES</p>
+            <h2>We Offer A Wide Range Of Healthcare Services</h2>
+          </div>
+          <div class="section-buttons">
+            <div class="arrows">
+              <div class="arrow">
+                <span class="material-symbols-outlined arrowBtn" onclick=" showSlide(-1)">
+                  arrow_left_alt
+                </span>
+              </div>
+              <div class="arrow">
+                <span class="material-symbols-outlined arrowBtn" onclick=" showSlide(+1)">
+                  arrow_right_alt
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-cards">
+          <div class="slide-container">
+            <div class="slide" id="slide1">
+              <div class="row">
+                <div class="slide col col-33 col-lg-33 col-md-100">
+                  <div class="serviceCard">
+                    <figure>
+                      <img src="./images/services/services01.png" alt="service1" />
+                    </figure>
+
+                    <a href="#" class="view-details">
+                      <span class="material-symbols-outlined view-detailsBtn">
+                        arrow_outward
+                      </span>
+                    </a>
+
+                    <div class="serviceContent">
+                      <h3>Semaglutide & Tirzepatide</h3>
+                      <p>Innovative medications for effective weight management.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide col col-33 col-lg-33 col-md-100">
+                  <div class="serviceCard">
+                    <figure>
+                      <img src="./images/services/services02.png" alt="service2" />
+                    </figure>
+
+                    <a href="#" class="view-details">
+                      <span class="material-symbols-outlined view-detailsBtn">
+                        arrow_outward
+                      </span>
+                    </a>
+
+                    <div class="serviceContent">
+                      <h3>Microdermabrasion</h3>
+                      <p>Innovative medications for effective weight management.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide col col-33 col-lg-33 col-md-100">
+                  <div class="serviceCard">
+                    <figure>
+                      <img src="./images/services/services03.png" alt="service3" />
+                    </figure>
+
+                    <a href="#" class="view-details">
+                      <span class="material-symbols-outlined view-detailsBtn">
+                        arrow_outward
+                      </span>
+                    </a>
+
+                    <div class="serviceContent">
+                      <h3>Microdermabrasion</h3>
+                      <p>Innovative medications for effective weight management.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide" id="slide2">
+              <div class="row">
+                <div class="slide col col-33 col-lg-33 col-md-100">
+                  <div class="serviceCard">
+                    <figure>
+                      <img src="./images/services/services01.png" alt="service1" />
+                    </figure>
+
+                    <a href="#" class="view-details">
+                      <span class="material-symbols-outlined view-detailsBtn">
+                        arrow_outward
+                      </span>
+                    </a>
+
+                    <div class="serviceContent">
+                      <h3> & Tirzepatide</h3>
+                      <p>Innovative medications for effective weight management.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide col col-33 col-lg-33 col-md-100">
+                  <div class="serviceCard">
+                    <figure>
+                      <img src="./images/services/services02.png" alt="service2" />
+                    </figure>
+
+                    <a href="#" class="view-details">
+                      <span class="material-symbols-outlined view-detailsBtn">
+                        arrow_outward
+                      </span>
+                    </a>
+
+                    <div class="serviceContent">
+                      <h3>Microdermabrasion</h3>
+                      <p>Innovative medications for effective weight management.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide col col-33 col-lg-33 col-md-100">
+                  <div class="serviceCard">
+                    <figure>
+                      <img src="./images/services/services03.png" alt="service3" />
+                    </figure>
+
+                    <a href="#" class="view-details">
+                      <span class="material-symbols-outlined view-detailsBtn">
+                        arrow_outward
+                      </span>
+                    </a>
+
+                    <div class="serviceContent">
+                      <h3>Microdermabrasion</h3>
+                      <p>Innovative medications for effective weight management.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide" id="slide3">
+              <div class="row">
+                <div class="slide col col-33 col-lg-33 col-md-100">
+                  <div class="serviceCard">
+                    <figure>
+                      <img src="./images/services/services01.png" alt="service1" />
+                    </figure>
+
+                    <a href="#" class="view-details">
+                      <span class="material-symbols-outlined view-detailsBtn">
+                        arrow_outward
+                      </span>
+                    </a>
+
+                    <div class="serviceContent">
+                      <h3>Semaglutide </h3>
+                      <p>Innovative medications for effective weight management.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide col col-33 col-lg-33 col-md-100">
+                  <div class="serviceCard">
+                    <figure>
+                      <img src="./images/services/services02.png" alt="service2" />
+                    </figure>
+
+                    <a href="#" class="view-details">
+                      <span class="material-symbols-outlined view-detailsBtn">
+                        arrow_outward
+                      </span>
+                    </a>
+
+                    <div class="serviceContent">
+                      <h3>Microdermabrasion</h3>
+                      <p>Innovative medications for effective weight management.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide col col-33 col-lg-33 col-md-100">
+                  <div class="serviceCard">
+                    <figure>
+                      <img src="./images/services/services03.png" alt="service3" />
+                    </figure>
+
+                    <a href="#" class="view-details">
+                      <span class="material-symbols-outlined view-detailsBtn">
+                        arrow_outward
+                      </span>
+                    </a>
+
+                    <div class="serviceContent">
+                      <h3>Microdermabrasion</h3>
+                      <p>Innovative medications for effective weight management.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="partners">
+      <div class="container">
+        <div class="row">
+          <div class="col col-50 col-md-100">
+            <div class="section-content">
+              <p class="section-title">OUR SERVICES</p>
+              <h2>Your Partner in Health, Wellness, and Confidence</h2>
+            </div>
+            <p class="section-description">
+              At Axiom Medical Wellness, we are redefining health and beauty
+              through a perfect blend of advanced medical expertise and
+              aesthetic innovation. Our mission is to empower you to look and
+              feel your best with personalized care and cutting-edge
+              treatments tailored to your unique goals
+            </p>
+            <ul class="servicesList">
+              <li>Cutting-edge medical and aesthetic solutions</li>
+              <li>Personalized treatment plans</li>
+              <li>State-of-the-art technology</li>
+              <li>Expert medical professionals</li>
+              <li>Comprehensive wellness programs</li>
+            </ul>
+            <a href="#" class="btn flex btn-black">Learn More about Us
+              <span class="material-symbols-outlined"> arrow_outward </span>
+            </a>
+          </div>
+          <div class="col col-50 col-md-100">
+            <figure class="service-members">
+              <img src="./images/services/members-photos.png" alt="Members" />
+            </figure>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col col-50 col-md-100">
+            <p class="section-description rating-description-width">
+              With Axiom Medical Wellness, you’ll experience unparalleled
+              care, advanced treatments, and results that transform your life.
+              Join us and discover a new standard in medical and aesthetic
+              wellness.
+            </p>
+          </div>
+          <div class="col col-50 col-md-100">
+            <div class="row partner-views">
+              <div class="partner-view col-lg-33">
+                <h3>16+</h3>
+                <p class="section-description">Years Of Experience</p>
+              </div>
+              <div class="partner-view col-lg-33">
+                <h3>7K+</h3>
+                <p class="section-description">Patients Transformed</p>
+              </div>
+              <div class="partner-view col-lg-33">
+                <h3>2K+</h3>
+                <p class="section-description">Regular Appointments</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="medical">
+      <div class="container">
+        <div class="row">
+          <div class="col col-50 col-md-100">
+            <div class="weight-management">
+              <figure>
+                <img src="./images/services/weight-checking.png" alt="weight-checking" />
+              </figure>
+              <div class="weight-management-content">
+                <h4>Medical Weight Management</h4>
+                <p class="section-description">
+                  Experience effective weight management with Semaglutide,
+                  Tirzepatide, and non-invasive CoolSculpting for a healthier,
+                  more confident you.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col col-50 col-md-100">
+            <div class="radiate">
+              <div class="radiate-content">
+                <h3>Radiate Confidence with Advanced Aesthetic Care</h3>
+                <p class="section-description">
+                  Rejuvenate your skin and body with Microneedling,
+                  Microdermabrasion, and Red Light Therapy, designed to
+                  enhance your natural beauty.
+                </p>
+              </div>
+              <figure>
+                <img src="./images/services/doctor.png" alt="doctor" />
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <div class="row revitalizeRow">
+          <div class="col col-50 col-md-100">
+            <figure>
+              <img src="./images/services/revitalize.png" alt="" />
+            </figure>
+          </div>
+          <div class="col col-50 col-md-100 md-mt-32">
+            <div class="section-content">
+              <h2>Revitalize Your Body and Mind</h2>
+              <p class="section-description">
+                Revitalize your body and mind with tailored wellness solutions
+                designed to restore balance and energy. Our therapies,
+                including Testosterone HRT and IV Therapy, are crafted to
+                enhance vitality, boost performance, and improve overall
+                well-being. Experience a renewed sense of strength, focus, and
+                confidence through our holistic approach to health.
+              </p>
+              <a href="#" class="btn flex btn-black">Learn More about Us
+                <span class="material-symbols-outlined"> arrow_outward </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experts">
+      <div class="container">
+        <div class="section-content">
+          <p class="section-title">MEET OUR EXPERTS</p>
+          <h2>Dedicated Professionals Committed To Your Well-Being</h2>
+        </div>
+        <div class="row">
+          <div class="col col-25 col-lg-50 col-md-100">
+            <div class="expertCard">
+              <figure>
+                <img src="./images/experts/expert1.png" alt="expert1" />
+              </figure>
+              <h3>Dr. Jane Smith</h3>
+              <a href="#">
+                <span class="material-symbols-outlined experts-btn btn-red">
+                  arrow_outward
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="col col-25 col-lg-50 col-md-100">
+            <div class="expertCard">
+              <figure>
+                <img src="./images/experts/expert2.png" alt="expert2" />
+              </figure>
+              <h3>Dr.Jimmy Carter</h3>
+              <a href="#">
+                <span class="material-symbols-outlined experts-btn btn-red">
+                  arrow_outward
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col col-25 col-lg-50 col-md-100">
+            <div class="expertCard">
+              <figure>
+                <img src="./images/experts/expert3.png" alt="expert3" />
+              </figure>
+              <h3>Dr. Lydia Savic</h3>
+              <a href="#">
+                <span class="material-symbols-outlined experts-btn btn-red">
+                  arrow_outward
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col col-25 col-lg-50 col-md-100">
+            <div class="expertCard">
+              <figure>
+                <img src="./images/experts/expert4.png" alt="expert4" />
+              </figure>
+              <h3>Dr. Jason Durnas</h3>
+              <a href="#">
+                <span class="material-symbols-outlined experts-btn btn-red">
+                  arrow_outward
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col col-40 col-lg-40 col-md-100">
+            <div class="rating-review-card">
+              <div class="row">
+                <div class="col-50">
+                  <div class="ratingCard">
+                    <figure>
+                      <img src="./images/testimonials/star.png" alt="star" />
+                    </figure>
+                    <span class="rateRev-head">5.0</span>
+                    <span class="sub-text">Trustpilot Rating</span>
+                  </div>
+                </div>
+                <div class="col-50">
+                  <div class="reviewCard">
+                    <figure>
+                      <img src="./images/testimonials/group-images.png" alt="patients" />
+                    </figure>
+                    <span class="rateRev-head">100+</span>
+                    <span class="sub-text">Patient Review</span>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-100">
+                  <figure>
+                    <img src="./images/testimonials/doctor-taking-care.png" alt="doctor-taking-care" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-60 col-lg-60 col-md-100 md-mt-32">
+            <div class="section-content">
+              <p class="section-title">TESTIMONIALS</p>
+              <h2>What Our Patients Say</h2>
+            </div>
+
+            <div class="review-comment">
+              <p class="section-description">
+                Lorem ipsum odor amet, consectetuer adipiscing elit. Imperdiet
+                nullam porttitor sed iaculis nulla porta feugiat volutpat
+                vestibulum. Integer potenti tristique risus primis tellus; nec
+                varius dapibus lobortis. Aenean amet congue ante nullam nulla
+                lorem condimentum sit hendrerit.
+              </p>
+              <p class="section-description">
+                Lorem ipsum odor amet, consectetuer adipiscing elit. Gravida
+                morbi per taciti lacinia; aenean luctus penatibus tortor.
+                Sociosqu parturient litora quam laoreet praesent placerat.
+              </p>
+
+              <div class="rating-review-bottom">
+                <div class="reviewer-details">
+                  <figure>
+                    <img src="./images/testimonials/reviewer.png" alt="riviewer" />
+                  </figure>
+                  <div>
+                    <p class="name">Angelina Robert</p>
+                    <p class="work">Business Woman</p>
+                  </div>
+                </div>
+
+                <div class="section-buttons">
+                  <div class="arrows">
+                    <button class="arrow left">
+                      <span class="material-symbols-outlined arrowBtn">
+                        arrow_left_alt
+                      </span>
+                    </button>
+                    <button class="arrow right">
+                      <span class="material-symbols-outlined arrowBtn">
+                        arrow_right_alt
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking">
+      <div class="container">
+        <h2>Start Your Wellness Journey Today</h2>
+        <p>Ready to take the next step towards healthier you?</p>
+        <a href="#" class="btn flex btn-black">Learn More about Us
+          <span class="material-symbols-outlined"> arrow_outward </span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col col-15 col-md-100">
+          <a href="#" class="footer-logo"><img src="./images/footer-logo.png" alt="Logo" /></a>
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="col col-15 col-md-100">
+          <ul>
+            <li>Menu</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>The Team</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="col col-15 col-md-100">
+          <ul>
+            <li>Services</li>
+            <li>Semaglutide</li>
+            <li>Tirzepatide</li>
+            <li>Cool Sculpting</li>
+            <li>Red Light Therapy</li>
+            <li>More</li>
+          </ul>
+        </div>
+        <div class="col col-40 col-md-100">
+          <ul>
+            <li>Contact Info</li>
+            <li><i class="fa-solid fa-phone"></i> 630-699-3786</li>
+            <li>  
+              <i class="fa-solid fa-envelope"></i>
+              answers@axiommedicalwellness.com
+            </li>
+            <li>
+              <i class="fa-solid fa-location-dot"></i> 2272 95th St. Suite 125
+              Naperville IL,60564
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
